@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+nav{
+    height: 4vh;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(153,153,153);
+    margin: 0;
+}
+#navLogo{
+    margin-top: 0.3vh;
+    margin-left: 2vw;
+    height: 3vh;
+}
+#search {
+    margin-right: 5vw;
+}
+
+#cart{
+    position: relative;
+    right: 100px;
+}
+
+.banner{
+    min-height: 700px; /* Set to the height of the image */
+    background-image: url("https://www.apple.com/v/home/az/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+.bannerLabel{
+    position: absolute;
+    top: 75px;
+    color: white;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: x-large;
+}
+.bannerLabel a{
+    color: blueviolet;
+}
