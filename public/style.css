@@ -48,3 +48,7 @@ nav{
 .bannerLabel a{
     color: blueviolet;
 }
+form{
+    text-align: center;
+    font-size: larger
+}
